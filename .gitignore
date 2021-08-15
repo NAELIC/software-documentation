@@ -1,0 +1,7 @@
+# Building
+build/
+_build/
+
+# VSCode
+.vscode/
+log/
