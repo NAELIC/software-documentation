@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Linux &mdash; Documentation NAELIC - Documentation Software </title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Windows" href="windows.html" />
+    <link rel="prev" title="Installation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> NAELIC - Documentation Software
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Installation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Linux</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#logiciel-de-la-ligue">Logiciel de la ligue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#notre-logiciel-rostron">Notre logiciel : ROSTron</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="windows.html">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docker.html">Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../start/index.html">Bien commencer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../start/architecture.html">Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start/prerequis.html">Prérequis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tutoriels/index.html">Tutoriels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutoriels/strategies.html">Stratégies</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developers/index.html">Developers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developers/contribute.html">Contributions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developers/conventions.html">Conventions</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NAELIC - Documentation Software</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Installation</a> &raquo;</li>
+        
+      <li>Linux</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/install/linux.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="linux">
+<h1>Linux<a class="headerlink" href="#linux" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>L’ensemble de la pile logiciel a été testé sous Ubuntu (20.04).</p>
+<p>Les autres distribution sont utilisables, il suffit d’adaptater les commandes.</p>
+</div>
+<div class="section" id="logiciel-de-la-ligue">
+<h2>Logiciel de la ligue<a class="headerlink" href="#logiciel-de-la-ligue" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="simulateur-grsim">
+<h3>Simulateur - grSim<a class="headerlink" href="#simulateur-grsim" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Installer les dépendances :</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"># </span>CMake
+<span class="go">sudo apt-get install -y apt-transport-https ca-certificates gnupg software-properties-common wget</span>
+<span class="go">wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2&gt;/dev/null &gt; /tmp/kitware-archive-latest.asc</span>
+<span class="go">sudo apt-key add /tmp/kitware-archive-latest.asc</span>
+<span class="go">sudo apt-add-repository &#39;deb https://apt.kitware.com/ubuntu/ bionic main&#39;</span>
+<span class="go">sudo apt-get update</span>
+<span class="go">sudo apt install -y cmake</span>
+
+<span class="gp"># </span>Autres dépêndances
+<span class="go">sudo apt install -y git build-essential curl protobuf-compiler libprotobuf-dev qt5-default libqt5opengl5-dev libgl1-mesa-dev libglu1-mesa-dev protobuf-compiler libode-dev libboost-dev</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Installer grSim</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">git clone https://github.com/RoboCup-SSL/grSim.git</span>
+<span class="go">cd grSim</span>
+<span class="go">cmake -B build &amp;&amp; cd build</span>
+<span class="go">make</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="arbitre-gamecontroller">
+<h3>Arbitre - GameController<a class="headerlink" href="#arbitre-gamecontroller" title="Lien permanent vers ce titre">¶</a></h3>
+</div>
+</div>
+<div class="section" id="notre-logiciel-rostron">
+<h2>Notre logiciel : ROSTron<a class="headerlink" href="#notre-logiciel-rostron" title="Lien permanent vers ce titre">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Installer ROS Galactic à cette <a class="reference external" href="https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html">adresse</a>.</p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Faire attention à la partie Set locale, la langue est en anglais (en).</p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>En cours d’écriture (Utilisation du .repos)</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="windows.html" class="btn btn-neutral float-right" title="Windows" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, NAELIC.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
