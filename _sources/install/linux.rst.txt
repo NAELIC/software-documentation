@@ -26,7 +26,7 @@ Simulateur - grSim
     sudo apt-get update
     sudo apt install -y cmake
 
-    # Autres dépêndances
+    # Autres dépendances
     sudo apt install -y git build-essential curl protobuf-compiler libprotobuf-dev qt5-default libqt5opengl5-dev libgl1-mesa-dev libglu1-mesa-dev protobuf-compiler libode-dev libboost-dev
 
 2. Installer grSim
