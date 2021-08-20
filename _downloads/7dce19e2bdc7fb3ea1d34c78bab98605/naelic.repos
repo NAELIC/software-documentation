@@ -1,0 +1,33 @@
+repositories:
+  rostron_bringup:
+    type: git
+    url: git@github.com:NAELIC/rostron_bringup.git
+    version: main
+  rostron_utils:
+    type: git
+    url: git@github.com:NAELIC/rostron_utils.git
+    version: main
+  rostron_interfaces:
+    type: git
+    url: git@github.com:NAELIC/rostron_interfaces.git
+    version: main
+  rostron_sender:
+    type: git
+    url: git@github.com:NAELIC/rostron_sender.git
+    version: main
+  rostron_aggregate_py:
+    type: git
+    url: git@github.com:NAELIC/rostron_aggregate_py.git
+    version: main
+  rostron-ia-ms:
+    type: git
+    url: git@github.com:NAELIC/rostron-ia-ms.git
+    version: main
+  rostron_navigation:
+    type: git
+    url: git@github.com:NAELIC/rostron_navigation .git
+    version: main
+  rostron_receiver:
+    type: git
+    url: git@github.com:NAELIC/rostron_receiver.git
+    version: main

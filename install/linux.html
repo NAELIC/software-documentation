@@ -224,6 +224,10 @@
 </div>
 <div class="section" id="notre-logiciel-rostron">
 <h2>Notre logiciel : ROSTron<a class="headerlink" href="#notre-logiciel-rostron" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les différentes commandes précédés ci-dessus peuvent être adaptée si vous êtes un utilisateur avancée de ROS.</p>
+</div>
 <ol class="arabic simple">
 <li><p>Installer ROS Galactic à cette <a class="reference external" href="https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html">adresse</a>.</p></li>
 </ol>
@@ -232,8 +236,37 @@
 <p>Faire attention à la partie Set locale, la langue est en anglais (en).</p>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>En cours d’écriture (Utilisation du .repos)</p></li>
+<li><p>Installer les dépendances de vcstool</p></li>
 </ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo apt install python3-vcstool</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Créer le workspace <em>ssl_ws</em>.</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">mkdir -p ~/ssl_ws/src</span>
+<span class="go">cd ~/ssl_ws/src</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Télécharger le <a class="reference download internal" download="" href="../_downloads/7dce19e2bdc7fb3ea1d34c78bab98605/naelic.repos"><code class="xref download docutils literal notranslate"><span class="pre">le</span> <span class="pre">fichier</span> <span class="pre">suivant</span></code></a> dans le dossier ou utilisez la commande suivante :</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">wget https://github.com/NAELIC/software-documentation/blob/main/naelic.repos</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Installer les dépôts ROS</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">vcs import &lt; naelic.repos</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Compiler le workspace</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">colcon build --symlink-install</span>
+</pre></div>
+</div>
+<p>L’installation est maintenant terminée !</p>
 </div>
 </div>
 
