@@ -45,10 +45,44 @@ Arbitre - GameController
 Notre logiciel : ROSTron
 ************************
 
+.. note::
+    Les différentes commandes précédés ci-dessus peuvent être adaptée si vous êtes un utilisateur avancée de ROS.
+
 1. Installer ROS Galactic à cette `adresse <https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html>`_.
 
 .. warning::
     Faire attention à la partie Set locale, la langue est en anglais (en).
 
-2. En cours d'écriture (Utilisation du .repos) 
+2. Installer les dépendances de vcstool
 
+.. code-block:: console
+
+    sudo apt install python3-vcstool
+
+3. Créer le workspace *ssl_ws*.
+
+.. code-block:: console
+
+    mkdir -p ~/ssl_ws/src
+    cd ~/ssl_ws/src
+
+4. Télécharger le :download:`le fichier suivant <../../naelic.repos>` dans le dossier ou utilisez la commande suivante :
+
+.. code-block:: console
+
+    wget https://github.com/NAELIC/software-documentation/blob/main/naelic.repos
+
+
+5. Installer les dépôts ROS
+
+.. code-block:: console
+
+    vcs import < naelic.repos
+
+6. Compiler le workspace
+
+.. code-block:: console
+
+    colcon build --symlink-install
+
+L'installation est maintenant terminée !
