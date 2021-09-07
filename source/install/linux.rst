@@ -70,7 +70,7 @@ Notre logiciel : ROSTron
 
 .. code-block:: console
 
-    wget https://github.com/NAELIC/software-documentation/blob/main/naelic.repos
+    wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/naelic.repos
 
 
 5. Installer les dépôts ROS
