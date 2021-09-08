@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
 
   
   
@@ -35,6 +36,7 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/tabs.js"></script>
         <script src="../_static/translations.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
@@ -249,17 +251,29 @@
 </pre></div>
 </div>
 <ol class="arabic simple" start="4">
-<li><p>Télécharger le <a class="reference download internal" download="" href="../_downloads/7dce19e2bdc7fb3ea1d34c78bab98605/naelic.repos"><code class="xref download docutils literal notranslate"><span class="pre">le</span> <span class="pre">fichier</span> <span class="pre">suivant</span></code></a> dans le dossier ou utilisez la commande suivante :</p></li>
+<li><p>Télécharger le fichier dans le workspace.</p></li>
 </ol>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/naelic.repos</span>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-SFRUUFM=" aria-selected="true" class="sphinx-tabs-tab group-tab" id="tab-0-SFRUUFM=" name="SFRUUFM=" role="tab" tabindex="0">HTTPS</button><button aria-controls="panel-0-U1NI" aria-selected="false" class="sphinx-tabs-tab group-tab" id="tab-0-U1NI" name="U1NI" role="tab" tabindex="-1">SSH</button></div><div aria-labelledby="tab-0-SFRUUFM=" class="sphinx-tabs-panel group-tab" id="panel-0-SFRUUFM=" name="SFRUUFM=" role="tabpanel" tabindex="0"><p>Télécharger <a class="reference download internal" download="" href="../_downloads/5b5222f85f999e6f8a883e76e344b719/https.naelic.repos"><code class="xref download docutils literal notranslate"><span class="pre">Fichier</span> <span class="pre">HTTPS</span></code></a> ou utilisez la commande suivante</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/repos/https.naelic.repos</span>
 </pre></div>
 </div>
+</div><div aria-labelledby="tab-0-U1NI" class="sphinx-tabs-panel group-tab" hidden="true" id="panel-0-U1NI" name="U1NI" role="tabpanel" tabindex="0"><p>Télécharger <a class="reference download internal" download="" href="../_downloads/0188102515114a91ddb621148eed42b3/ssh.naelic.repos"><code class="xref download docutils literal notranslate"><span class="pre">Fichier</span> <span class="pre">HTTPS</span></code></a> ou utilisez la commande suivante</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/repos/ssh.naelic.repos</span>
+</pre></div>
+</div>
+</div></div>
 <ol class="arabic simple" start="5">
 <li><p>Installer les dépôts ROS</p></li>
 </ol>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">vcs import &lt; naelic.repos</span>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-1-SFRUUFM=" aria-selected="true" class="sphinx-tabs-tab group-tab" id="tab-1-SFRUUFM=" name="SFRUUFM=" role="tab" tabindex="0">HTTPS</button><button aria-controls="panel-1-U1NI" aria-selected="false" class="sphinx-tabs-tab group-tab" id="tab-1-U1NI" name="U1NI" role="tab" tabindex="-1">SSH</button></div><div aria-labelledby="tab-1-SFRUUFM=" class="sphinx-tabs-panel group-tab" id="panel-1-SFRUUFM=" name="SFRUUFM=" role="tabpanel" tabindex="0"><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">vcs import &lt; https.naelic.repos</span>
 </pre></div>
 </div>
+</div><div aria-labelledby="tab-1-U1NI" class="sphinx-tabs-panel group-tab" hidden="true" id="panel-1-U1NI" name="U1NI" role="tabpanel" tabindex="0"><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">vcs import &lt; ssh.naelic.repos</span>
+</pre></div>
+</div>
+</div></div>
 <ol class="arabic simple" start="6">
 <li><p>Compiler le workspace</p></li>
 </ol>
