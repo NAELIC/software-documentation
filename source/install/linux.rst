@@ -66,18 +66,43 @@ Notre logiciel : ROSTron
     mkdir -p ~/ssl_ws/src
     cd ~/ssl_ws/src
 
-4. Télécharger le :download:`le fichier suivant <../../naelic.repos>` dans le dossier ou utilisez la commande suivante :
 
-.. code-block:: console
+4. Télécharger le fichier dans le workspace.
 
-    wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/naelic.repos
+.. tabs::
 
+    .. group-tab:: HTTPS
+
+        Télécharger :download:`Fichier HTTPS <../../repos/https.naelic.repos>` ou utilisez la commande suivante
+
+        .. code-block:: console
+
+            wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/repos/https.naelic.repos
+
+    .. group-tab:: SSH
+
+        Télécharger :download:`Fichier HTTPS <../../repos/ssh.naelic.repos>` ou utilisez la commande suivante
+
+        .. code-block:: console
+
+            wget https://raw.githubusercontent.com/NAELIC/software-documentation/main/repos/ssh.naelic.repos
 
 5. Installer les dépôts ROS
 
-.. code-block:: console
+.. tabs::
 
-    vcs import < naelic.repos
+    .. group-tab:: HTTPS
+
+        .. code-block:: console
+
+            vcs import < https.naelic.repos
+
+    .. group-tab:: SSH
+
+        .. code-block:: console
+
+            vcs import < ssh.naelic.repos
+
 
 6. Compiler le workspace
 
