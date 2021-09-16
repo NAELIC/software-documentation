@@ -107,7 +107,8 @@ Notre logiciel : ROSTron
 6. Compiler le workspace
 
 .. code-block:: console
-
+    
+    cd ~/ssl_ws
     colcon build --symlink-install
 
 L'installation est maintenant terminée !
