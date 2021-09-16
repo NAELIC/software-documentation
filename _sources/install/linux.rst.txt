@@ -81,7 +81,7 @@ Notre logiciel : ROSTron
 
     .. group-tab:: SSH
 
-        Télécharger :download:`Fichier HTTPS <../../repos/ssh.naelic.repos>` ou utilisez la commande suivante
+        Télécharger :download:`Fichier SSH <../../repos/ssh.naelic.repos>` ou utilisez la commande suivante
 
         .. code-block:: console
 
