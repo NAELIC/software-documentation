@@ -111,4 +111,10 @@ Notre logiciel : ROSTron
     cd ~/ssl_ws
     colcon build --symlink-install
 
+7. Ajouter à la fin de votre **.bashrc** la ligne suivante :
+
+.. code-block:: bash
+
+    source ~/ssl_ws/install/setup.bash
+
 L'installation est maintenant terminée !
