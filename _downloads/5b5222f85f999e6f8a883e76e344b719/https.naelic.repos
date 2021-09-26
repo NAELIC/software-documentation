@@ -25,7 +25,7 @@ repositories:
     version: main
   rostron_navigation:
     type: git
-    url: https://github.com/NAELIC/rostron_navigation .git
+    url: https://github.com/NAELIC/rostron_navigation.git
     version: main
   rostron_receiver:
     type: git
