@@ -8,6 +8,6 @@ Bien commencer
     :glob:
 
     architecture
-    prerequis
+    resources
 
 A faire
