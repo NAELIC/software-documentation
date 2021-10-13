@@ -21,7 +21,7 @@ repositories:
     version: main
   rostron-ia-ms:
     type: git
-    url: git@github.com:NAELIC/rostron-ia-ms.git
+    url: git@github.com:NAELIC/rostron_ia_ms.git
     version: main
   rostron_navigation:
     type: git
