@@ -31,3 +31,7 @@ repositories:
     type: git
     url: git@github.com:NAELIC/rostron_receiver.git
     version: main
+  rostron_viewer:
+    type: git
+    url: git@github.com:NAELIC/rostron_viewer.git
+    version: main

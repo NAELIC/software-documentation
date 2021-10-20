@@ -14,7 +14,7 @@ Logiciel de la ligue
 Simulateur - grSim
 ==================
 
-1. Installer les dépendances :
+1. Installer les dépendances
 
 .. code-block:: console
 
@@ -48,18 +48,19 @@ Notre logiciel : ROSTron
 .. note::
     Les différentes commandes précédés ci-dessus peuvent être adaptée si vous êtes un utilisateur avancée de ROS.
 
-1. Installer ROS Galactic à cette `adresse <https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html>`_.
+1. Installer ROS Galactic à cette `adresse <https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html>`_
 
 .. warning::
     Faire attention à la partie Set locale, la langue est en anglais (en).
 
-2. Installer les dépendances de vcstool
+2. Installer les dépendances
 
 .. code-block:: console
 
     sudo apt install python3-vcstool
+    pip3 install PySide6
 
-3. Créer le workspace *ssl_ws*.
+3. Créer le workspace *ssl_ws*
 
 .. code-block:: console
 
@@ -67,7 +68,7 @@ Notre logiciel : ROSTron
     cd ~/ssl_ws/src
 
 
-4. Télécharger le fichier dans le workspace.
+4. Télécharger le fichier dans le workspace
 
 .. tabs::
 
@@ -111,10 +112,10 @@ Notre logiciel : ROSTron
     cd ~/ssl_ws
     colcon build --symlink-install
 
-7. Ajouter à la fin de votre **.bashrc** la ligne suivante :
+7. Ajouter la ligne suivante à la fin de votre **.bashrc** 
 
 .. code-block:: bash
 
     source ~/ssl_ws/install/setup.bash
 
-L'installation est maintenant terminée !
+L'installation est maintenant terminée, vous pouvez passer au test !
