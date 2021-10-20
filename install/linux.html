@@ -107,7 +107,7 @@
 <div class="section" id="simulateur-grsim">
 <h3>Simulateur - grSim<a class="headerlink" href="#simulateur-grsim" title="Lien permanent vers ce titre"></a></h3>
 <ol class="arabic simple">
-<li><p>Installer les dépendances :</p></li>
+<li><p>Installer les dépendances</p></li>
 </ol>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"># </span>CMake
 <span class="go">sudo apt-get install -y apt-transport-https ca-certificates gnupg software-properties-common wget</span>
@@ -142,27 +142,28 @@
 <p>Les différentes commandes précédés ci-dessus peuvent être adaptée si vous êtes un utilisateur avancée de ROS.</p>
 </div>
 <ol class="arabic simple">
-<li><p>Installer ROS Galactic à cette <a class="reference external" href="https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html">adresse</a>.</p></li>
+<li><p>Installer ROS Galactic à cette <a class="reference external" href="https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html">adresse</a></p></li>
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Avertissement</p>
 <p>Faire attention à la partie Set locale, la langue est en anglais (en).</p>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>Installer les dépendances de vcstool</p></li>
+<li><p>Installer les dépendances</p></li>
 </ol>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo apt install python3-vcstool</span>
+<span class="go">pip3 install PySide6</span>
 </pre></div>
 </div>
 <ol class="arabic simple" start="3">
-<li><p>Créer le workspace <em>ssl_ws</em>.</p></li>
+<li><p>Créer le workspace <em>ssl_ws</em></p></li>
 </ol>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">mkdir -p ~/ssl_ws/src</span>
 <span class="go">cd ~/ssl_ws/src</span>
 </pre></div>
 </div>
 <ol class="arabic simple" start="4">
-<li><p>Télécharger le fichier dans le workspace.</p></li>
+<li><p>Télécharger le fichier dans le workspace</p></li>
 </ol>
 <div class="sphinx-tabs docutils container">
 <div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-SFRUUFM=" aria-selected="true" class="sphinx-tabs-tab group-tab" id="tab-0-SFRUUFM=" name="SFRUUFM=" role="tab" tabindex="0">HTTPS</button><button aria-controls="panel-0-U1NI" aria-selected="false" class="sphinx-tabs-tab group-tab" id="tab-0-U1NI" name="U1NI" role="tab" tabindex="-1">SSH</button></div><div aria-labelledby="tab-0-SFRUUFM=" class="sphinx-tabs-panel group-tab" id="panel-0-SFRUUFM=" name="SFRUUFM=" role="tabpanel" tabindex="0"><p>Télécharger <a class="reference download internal" download="" href="../_downloads/5b5222f85f999e6f8a883e76e344b719/https.naelic.repos"><code class="xref download docutils literal notranslate"><span class="pre">Fichier</span> <span class="pre">HTTPS</span></code></a> ou utilisez la commande suivante</p>
@@ -193,12 +194,12 @@
 </pre></div>
 </div>
 <ol class="arabic simple" start="7">
-<li><p>Ajouter à la fin de votre <strong>.bashrc</strong> la ligne suivante :</p></li>
+<li><p>Ajouter la ligne suivante à la fin de votre <strong>.bashrc</strong></p></li>
 </ol>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span> ~/ssl_ws/install/setup.bash
 </pre></div>
 </div>
-<p>L’installation est maintenant terminée !</p>
+<p>L’installation est maintenant terminée, vous pouvez passer au test !</p>
 </div>
 </div>
 
