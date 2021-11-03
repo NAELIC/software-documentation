@@ -19,7 +19,7 @@ repositories:
     type: git
     url: https://github.com/NAELIC/rostron_aggregate_py.git
     version: main
-  rostron-ia-ms:
+  rostron_ia_ms:
     type: git
     url: https://github.com/NAELIC/rostron_ia_ms.git
     version: main
@@ -35,3 +35,7 @@ repositories:
     type: git
     url: https://github.com/NAELIC/rostron_viewer.git
     version: main
+  serial:
+    type: git
+    url: https://github.com/RoverRobotics-forks/serial-ros2.git
+    version: master
