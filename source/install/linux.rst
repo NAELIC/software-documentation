@@ -118,4 +118,4 @@ Notre logiciel : ROSTron
 
     source ~/ssl_ws/install/setup.bash
 
-L'installation est maintenant terminée, vous pouvez passer au test !
+L'installation est maintenant terminée, vous pouvez passer à la page ":ref:`testing`" !
