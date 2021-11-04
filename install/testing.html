@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contributions &mdash; Documentation NAELIC - Documentation Software </title>
+  <title>Tester votre installation &mdash; Documentation NAELIC - Documentation Software </title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Conventions" href="conventions.html" />
-    <link rel="prev" title="Developers" href="index.html" /> 
+    <link rel="next" title="Bien commencer" href="../start/index.html" />
+    <link rel="prev" title="Docker" href="docker.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -39,17 +39,17 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../install/index.html">Installation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../install/linux.html">Linux</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../install/linux.html#logiciel-de-la-ligue">Logiciel de la ligue</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../install/linux.html#notre-logiciel-rostron">Notre logiciel : ROSTron</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Installation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="linux.html">Linux</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="linux.html#logiciel-de-la-ligue">Logiciel de la ligue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux.html#notre-logiciel-rostron">Notre logiciel : ROSTron</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../install/windows.html">Windows</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../install/docker.html">Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../install/testing.html">Tester votre installation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../install/testing.html#test-en-simulation">Test en simulation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../install/testing.html#test-en-reel">Test en réel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="windows.html">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docker.html">Docker</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Tester votre installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#test-en-simulation">Test en simulation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-en-reel">Test en réel</a></li>
 </ul>
 </li>
 </ul>
@@ -67,9 +67,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../tutoriels/strategies.html">Stratégies</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Developers</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Contributions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="conventions.html">Conventions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developers/index.html">Developers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developers/contribute.html">Contributions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developers/conventions.html">Conventions</a></li>
 </ul>
 </li>
 </ul>
@@ -88,10 +88,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="index.html">Developers</a> &raquo;</li>
-      <li>Contributions</li>
+          <li><a href="index.html">Installation</a> &raquo;</li>
+      <li>Tester votre installation</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/developers/contribute.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+            <a href="../_sources/install/testing.rst.txt" rel="nofollow"> Afficher la source de la page</a>
       </li>
   </ul>
   <hr/>
@@ -99,17 +99,46 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="contributions">
-<h1>Contributions<a class="headerlink" href="#contributions" title="Lien permanent vers ce titre"></a></h1>
-<p>A faire</p>
+  <div class="section" id="tester-votre-installation">
+<h1>Tester votre installation<a class="headerlink" href="#tester-votre-installation" title="Lien permanent vers ce titre"></a></h1>
+<div class="section" id="test-en-simulation">
+<h2>Test en simulation<a class="headerlink" href="#test-en-simulation" title="Lien permanent vers ce titre"></a></h2>
+<ol class="arabic simple">
+<li><p>Dans le dossier d’installation de GrSim, lancer le simulateur avec la commande suivante :</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">./bin/grSim</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Vous pouvez modifier les paramètres de la division et du nombre de robots.</p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Lancer l’ensemble de la pile logiciel</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">ros2 launch rostron_bringup simu.launch.py</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Publier sur le topic <em>/yellow/commands</em> pour faire bouger le robot avec l’id 0.</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">ros2 topic pub /yellow/commands rostron_interfaces/msg/Commands &quot;{ commands : [{ id : 0, velocity: { linear: { x: 0, y: 0 }, angular: { z: 1.0 }}}]}&quot;</span>
+</pre></div>
+</div>
+<p>Le robot devrait tourner sur lui-même.</p>
+</div>
+<div class="section" id="test-en-reel">
+<h2>Test en réel<a class="headerlink" href="#test-en-reel" title="Lien permanent vers ce titre"></a></h2>
+<p>En cours de création.</p>
+</div>
 </div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="index.html" class="btn btn-neutral float-left" title="Developers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="conventions.html" class="btn btn-neutral float-right" title="Conventions" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="docker.html" class="btn btn-neutral float-left" title="Docker" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../start/index.html" class="btn btn-neutral float-right" title="Bien commencer" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

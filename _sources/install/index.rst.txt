@@ -10,5 +10,6 @@ Installation
     linux
     windows
     docker
+    testing
 
 A faire
